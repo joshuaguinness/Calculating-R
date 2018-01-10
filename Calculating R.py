@@ -34,7 +34,7 @@ def R(file1, file2):
         xList.append(tempFloat)
     infile1.close()
     
-    #Generates a list of y values form a file containing y values
+    #Generates a list of y values from a file containing y values
     infile2 = open(file2, "r")
     yList = []
     #Reads through each line of the file, stripping away the \n characters and converting 
